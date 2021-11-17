@@ -1,7 +1,7 @@
 # TITLE
 All scripts used for analysis in the inter-pangenome study.
 ## pangenome_splitter
-A script to split a pangenome's representative cluster sequences into separate core and accessory cluster sequence lists based on a given core threshold.
+A script to split a pangenome's representative cluster sequences into separate core and accessory cluster sequence lists based on a specified core threshold.
 ### Required input files
 This script requires the `gene_presence_absence_roary.csv` and `pan_genome_reference.fa` files that are output from 
 [Panaroo](https://gtonkinhill.github.io/panaroo/#/).
