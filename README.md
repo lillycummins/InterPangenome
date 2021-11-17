@@ -8,3 +8,9 @@ This script requires the `gene_presence_absence_roary.csv` and `pan_genome_refer
 (Also works with the `gene_presence_absence.csv` and `pan_genome_reference.fa` output files from [Roary](https://sanger-pathogens.github.io/Roary/).)
 ### Usage
 `pangenome_splitter.py -m gene_presence_absence_roary.csv -f pan_genome_reference.fa -o output -core 0.95`
+## process_partial_hits
+A script to process
+### Required input files
+This script requires an [ABRicate](https://github.com/tseemann/abricate) summary file in .tsv format.
+### Usage
+`process_partial_hits.py -i summary_file.tsv -o output`
