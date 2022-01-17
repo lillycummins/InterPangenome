@@ -33,7 +33,7 @@ with open(args.input) as sumfile:
     df = pd.read_csv(sumfile, sep='\t') #load summary file as a dataframe
     df = df.replace('.',0) #replace entries where no match was found with 0
     headings = df.columns.values.tolist() #take column headers 
-    genes = headings[2:] #create list to gene clusters to iterate through
+    genes = headings[2:] #create list of gene clusters to iterate through
     for cluster in genes: #for each gene cluster in column headings
         cluster_coverage_list = df[cluster].tolist() #take a list of observed coverage of cluster per assembly
         final_coverage_list=[]
