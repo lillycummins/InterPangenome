@@ -14,3 +14,4 @@ A script to process
 This script requires an [ABRicate](https://github.com/tseemann/abricate) summary file in .tsv format.
 ### Usage
 `process_partial_hits.py -i summary_file.tsv -o output`
+## function_distribution_clustermap
