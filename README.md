@@ -1,4 +1,4 @@
-# Interpangenome E.coli analysis
+# Interpangenome *E.coli* analysis
 All scripts used for analysis in the inter-pangenome study.
 ## pangenome_splitter
 A script to split a pangenome's representative cluster sequences into separate core and accessory cluster sequence lists based on a specified core threshold.
