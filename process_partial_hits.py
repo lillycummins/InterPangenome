@@ -14,8 +14,8 @@ import time
 import pandas as pd
 
 parser = argparse.ArgumentParser(description = 'Process partial hits from ABRicate summary.')
-parser.add_argument("--input", "-i", type=str, required=True) #abricate summary.tsv file
-parser.add_argument("--output", "-o", type=str, required=True) #output file name
+parser.add_argument("--input", "-i", help="ABRicate summary.tsv file", type=str, required=True) #abricate summary.tsv file
+parser.add_argument("--output", "-o", help="Specify output name", type=str, required=True) #output file name
 args = parser.parse_args()
 
 #check user input
