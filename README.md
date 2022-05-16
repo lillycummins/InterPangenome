@@ -19,4 +19,4 @@ A script to visualise the percentage of genes per COG functional category betwee
 ### Required input files
 This script requires the path to a single directory containing annotation files output from [EggNOG-mapper](https://github.com/eggnogdb/eggnog-mapper) in .tsv format
 ### Usage
-'function_distribution_clustermap.py -p path/to/your/directory -o output'
+`function_distribution_clustermap.py -p path/to/your/directory -o output`
