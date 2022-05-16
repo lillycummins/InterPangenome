@@ -15,3 +15,8 @@ This script requires an [ABRicate](https://github.com/tseemann/abricate) summary
 ### Usage
 `process_partial_hits.py -i summary_file.tsv -o output`
 ## function_distribution_clustermap
+A script to visualise the percentage of genes per COG functional category between multiple lineages and output .csv containing the breakdown of percentages. 
+### Required input files
+This script requires path to single directory containing .tsv annotation files output from [EggNOG-mapper](https://github.com/eggnogdb/eggnog-mapper)
+### Usage
+'function_distribution_clustermap.py -p path/to/your/directory -o output'
