@@ -9,7 +9,7 @@ This script requires the `gene_presence_absence_roary.csv` and `pan_genome_refer
 ### Usage
 `pangenome_splitter.py -m gene_presence_absence_roary.csv -f pan_genome_reference.fa -o output -core 0.95`
 ## process_partial_hits
-A script to process
+A script to process an ABRicate summary output file to account for partial gene hits.
 ### Required input files
 This script requires an [ABRicate](https://github.com/tseemann/abricate) summary file in .tsv format.
 ### Usage
