@@ -19,9 +19,9 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from matplotlib.patches import Patch
 
-parser = argparse.ArgumentParser('Create functional distribution heatmap')
-parser.add_argument("--path", "-p", type=str, required=True) #path to directory of eggnog annotation tsvs
-parser.add_argument("--output", "-o", type=str, required=True) #path to output matrix
+parser = argparse.ArgumentParser(description="Create functional distribution heatmap")
+parser.add_argument("--path", "-p", help="Path to directory containing eggnog annotations", type=str, required=True) #path to directory of eggnog annotation tsv files
+parser.add_argument("--output", "-o", help="Specify output file name", type=str, required=True) #path to output matrix
 args = parser.parse_args()
 
 possiblecategories=['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O',
