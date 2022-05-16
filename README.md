@@ -5,7 +5,7 @@ A script to split a pangenome's representative cluster sequences into separate c
 ### Required input files
 This script requires the `gene_presence_absence_roary.csv` and `pan_genome_reference.fa` files that are output from 
 [Panaroo](https://gtonkinhill.github.io/panaroo/#/).
-(Also works with the `gene_presence_absence.csv` and `pan_genome_reference.fa` output files from [Roary](https://sanger-pathogens.github.io/Roary/).)
+(Also works with the `gene_presence_absence.csv` and `pan_genome_reference.fa` output files from [Roary](https://sanger-pathogens.github.io/Roary/)).
 ### Usage
 `pangenome_splitter.py -m gene_presence_absence_roary.csv -f pan_genome_reference.fa -o output -core 0.95`
 ## process_partial_hits
@@ -17,6 +17,6 @@ This script requires an [ABRicate](https://github.com/tseemann/abricate) summary
 ## function_distribution_clustermap
 A script to visualise the percentage of genes per COG functional category between multiple lineages and output .csv containing the breakdown of percentages. 
 ### Required input files
-This script requires the path to a single directory containing annotation files output from [EggNOG-mapper](https://github.com/eggnogdb/eggnog-mapper) in .tsv format
+This script requires the path to a single directory containing annotation files output from [EggNOG-mapper](https://github.com/eggnogdb/eggnog-mapper) in .tsv format.
 ### Usage
 `function_distribution_clustermap.py -p path/to/your/directory -o output`
